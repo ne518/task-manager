@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
   if (localStorage.getItem('darkMode') === 'true') {
     document.body.classList.add('dark-mode');
   }
-  
 
   // Render tasks
   function renderTasks() {
